@@ -33,3 +33,7 @@ if(UNIX AND NOT APPLE)
     dl
   )
 endif()
+
+install(TARGETS nvidia-pstated
+  RUNTIME DESTINATION bin
+)
